@@ -1,7 +1,4 @@
-i = 1
 character = "#"
-
-while i <= 5:
-    i += 1
+for number in range(5):
     print(character)
     character += "#"
